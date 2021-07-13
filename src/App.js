@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
         </Switch>
