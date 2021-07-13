@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home } from "./redpen site";
+import { Home } from "/redpen site";
 function App() {
   return (
     <div className="App">
