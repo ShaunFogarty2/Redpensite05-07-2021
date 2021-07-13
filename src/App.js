@@ -1,8 +1,16 @@
-import React from 'react';
-
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Home } from "./redpen site";
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return (
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route path="/" exact component={() => <Home />} />
+        </Switch>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
